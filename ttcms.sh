@@ -8,7 +8,7 @@ fi
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 systemctl enable docker && systemctl restart docker
 mkdir -p /usr/local/html && cd /usr/local/html && rm -rf cms
-git clone -b master https://taxijun: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@github.com/taxijun/ncys.git cms
+git clone https://taxijun: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@github.com/taxijun/ncys.git cms
 chmod -R 777 /usr/local/html/cms
 docker stop ttcms >/dev/null 2>&1
 docker rm ttcms >/dev/null 2>&1

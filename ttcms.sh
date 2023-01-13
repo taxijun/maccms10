@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf ntsc
+rm -rf ttcms.sh
 if [ `cat /proc/version | grep Ubuntu | wc -l` -gt 0 ];then
 apt-get install git -y
 else

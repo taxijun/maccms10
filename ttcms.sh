@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -rf ttcms.sh
-if [ `cat /proc/version | grep Ubuntu | wc -l` -gt 0 ];then
+if [ `cat /proc/version | grep -e Ubuntu -e Debian | wc -l` -gt 0 ];then
 apt-get install git -y
 else
 yum install git -y

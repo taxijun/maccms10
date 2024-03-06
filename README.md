@@ -8,7 +8,7 @@ ubuntu一键安装命令：rm -rf cms && apt install -y git && git clone https:/
 
 前台：http://IP/
 
-后台：https://IP/3a3afa942911.php/admin/index/index.html
+后台：http://IP/3a3afa942911.php/admin/index/index.html
 
 统一账户密码：supermaster/123456
 

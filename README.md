@@ -1,10 +1,8 @@
 centos一键安装命令：
-
 rm -rf cms && yum install -y git && git clone https://github.com/taxijun/maccms10.git cms && cd cms && chmod +x ttcms.sh && ./ttcms.sh
 
 
 ubuntu一键安装命令：
-
 rm -rf cms && apt install -y git && git clone https://github.com/taxijun/maccms10.git cms && cd cms && chmod +x ttcms.sh && ./ttcms.sh
 
 

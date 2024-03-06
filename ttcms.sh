@@ -12,6 +12,6 @@ git clone https://github.com/taxijun/maccms10.git cms
 chmod -R 777 /usr/local/html/cms
 docker stop ttcms >/dev/null 2>&1
 docker rm ttcms >/dev/null 2>&1
-docker run -itd --name ttcms -p 80:80 -p 443:443 -v /usr/local/html/cms:/usr/local/html/cms -v /sys/fs/cgroup:/sys/fs/cgroup --restart=always --privileged=true karolynpabelickdhj54/ttcms:1.3 /usr/sbin/init
+docker run -itd --name ttcms -p 80:80 -v /usr/local/html/cms:/usr/local/html/cms -v /sys/fs/cgroup:/sys/fs/cgroup --restart=always --privileged=true karolynpabelickdhj54/ttcms:1.3 /usr/sbin/init
 echo "Everything is ok!"
 echo "Open the website: http://`hostname -I|awk '{print $1}'`"
